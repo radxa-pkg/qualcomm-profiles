@@ -30,3 +30,12 @@ Depends: firmware-qcom-hlosfw,
 Description: Metapackages for common Qualcomm vendor packages
  This package provides prebuilt packages from Qualcomm that
  provides a more optimized user experience.
+
+Package: task-qcs6490
+Architecture: all
+Priority: optional
+Depends: task-qualcomm,
+         ${misc:Depends},
+Description: Metapackages for common Qualcomm QCS6490 vendor packages
+ This package provides prebuilt packages from Qualcomm QCS6490 that
+ provides a more optimized user experience.
