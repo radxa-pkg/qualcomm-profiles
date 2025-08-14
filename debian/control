@@ -9,10 +9,24 @@ Build-Depends: debhelper (>=12~),
                dh-exec,
                pandoc,
 
-Package: qualcomm-profiles
+Package: task-qualcomm-gstreamer
 Architecture: all
-Section: admin
 Priority: optional
-Depends: ${misc:Depends},
-Description: qualcomm-profiles
- This package provides the qualcomm-profiles.
+Depends: gstreamer1.0-plugins-qcom-good,
+         libgstreamer-plugins-qcom-base1.0-0,
+         qcom-video-firmware,
+         ${misc:Depends},
+Description: Metapackages for common Qualcomm GStreamer vendor packages
+ This package provides prebuilt packages from Qualcomm GStreamer that
+ provides a more optimized user experience.
+
+Package: task-qualcomm
+Architecture: all
+Priority: optional
+Depends: firmware-qcom-hlosfw,
+         qcom-iot-defaults,
+         task-qualcomm-gstreamer,
+         ${misc:Depends},
+Description: Metapackages for common Qualcomm vendor packages
+ This package provides prebuilt packages from Qualcomm that
+ provides a more optimized user experience.
