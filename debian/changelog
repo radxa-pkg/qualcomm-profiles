@@ -1,5 +1,13 @@
-qualcomm-profiles (0.1.0-1) UNRELEASED; urgency=medium
+qualcomm-profiles (0.1.0-1) unstable; urgency=medium
 
+  [ "Radxa Computer Co., Ltd" ]
   * Add initial Debian packaging support
 
- -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 01 Jan 1970 08:00:00 +0800
+  [ Guoguo ]
+  * fix: add task-qualcomm and task-qualcomm-gstreamer package
+  * fix: add task-qcs6490 package
+
+  [ dependabot[bot] ]
+  * build(deps): bump actions/upload-pages-artifact from 3 to 4
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 01 Sep 2025 08:11:05 +0000
