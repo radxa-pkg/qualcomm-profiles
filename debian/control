@@ -25,12 +25,22 @@ Architecture: all
 Priority: optional
 Depends: firmware-qcom-hlosfw,
          qcom-iot-defaults,
+         task-qualcomm-sound,
          task-qualcomm-gstreamer,
          radxa-system-config-qualcomm,
          ${misc:Depends},
 Description: Metapackages for common Qualcomm vendor packages
  This package provides prebuilt packages from Qualcomm that
  provides a more optimized user experience.
+
+Package: task-qualcomm-sound
+Architecture: all
+Priority: optional
+Depends: radxa-alsa-config,
+         ${misc:Depends},
+Description: Metapackages for Qualcomm sound config
+ This package provides Qualcomm sound config and Radxa
+ specific ALSA config.
 
 Package: task-qcs6490
 Architecture: all
