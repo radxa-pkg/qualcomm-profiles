@@ -1,3 +1,12 @@
+qualcomm-profiles (0.1.0-3) unstable; urgency=medium
+
+  [ Guoguo ]
+  * feat: add task-qualcomm-sound
+  * fix: remove radxa-system-config-disable-sleep in task-qcs6490
+  * feat: use alsa-ucm-conf for qualcomm sound
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 17 Oct 2025 07:07:03 +0000
+
 qualcomm-profiles (0.1.0-2) unstable; urgency=medium
 
   [ Guoguo ]
