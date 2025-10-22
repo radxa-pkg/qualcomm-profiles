@@ -24,6 +24,7 @@ Package: task-qualcomm
 Architecture: all
 Priority: optional
 Depends: firmware-qcom-hlosfw,
+         qcom-iot-defaults,
          task-qualcomm-gstreamer,
          radxa-system-config-qualcomm,
          ${misc:Depends},
