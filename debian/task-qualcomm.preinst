@@ -1,0 +1,18 @@
+#!/bin/sh
+set -e
+
+case $1 in
+    install|upgrade|triggered)
+        conflicts="
+        /usr/lib/modprobe.d/blacklist-qcom-camera.conf
+        "
+        for i in $conflicts
+        do
+            dpkg-divert --package task-qualcomm --divert "$i.disabled" --rename "$i"
+        done
+        ;;
+esac
+    
+#DEBHELPER#
+
+exit 0
