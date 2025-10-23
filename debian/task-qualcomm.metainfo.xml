@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <provides>
+    <modalias>of:N*T*Cqcom,fastrpcC*</modalias>
+    <modalias>of:N*T*Cqcom,fastrpc</modalias>
+  </provides>
+</component>

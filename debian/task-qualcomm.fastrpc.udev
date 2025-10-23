@@ -1,0 +1,3 @@
+ACTION=="add", SUBSYSTEM=="misc", KERNEL=="fastrpc-adsp", TAG+="uaccess", GROUP="render"
+ACTION=="add", SUBSYSTEM=="misc", KERNEL=="fastrpc-cdsp", TAG+="uaccess", GROUP="render"
+ACTION=="add", SUBSYSTEM=="misc", KERNEL=="fastrpc-cdsp-secure", TAG+="uaccess", GROUP="render"
