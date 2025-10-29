@@ -37,6 +37,8 @@ Architecture: all
 Priority: optional
 Depends: task-qualcomm,
          radxa-firmware-qcs6490,
+         phonon4qt5-backend-vlc,
+         radxa-system-config-qcs6490,
          ${misc:Depends},
 Description: Metapackages for common Qualcomm QCS6490 vendor packages
  This package provides prebuilt packages from Qualcomm QCS6490 that
