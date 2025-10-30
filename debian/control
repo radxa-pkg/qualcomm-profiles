@@ -27,6 +27,8 @@ Depends: firmware-qcom-hlosfw,
          qcom-iot-defaults,
          task-qualcomm-gstreamer,
          radxa-system-config-qualcomm,
+         fastrpc,
+         fastrpc-dev,
          ${misc:Depends},
 Description: Metapackages for common Qualcomm vendor packages
  This package provides prebuilt packages from Qualcomm that
