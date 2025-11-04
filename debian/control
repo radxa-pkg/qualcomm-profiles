@@ -46,6 +46,7 @@ Package: task-qcs9075
 Architecture: all
 Priority: optional
 Depends: task-qualcomm,
+         radxa-firmware-qcs9075,
          radxa-system-config-disable-sleep,
          ${misc:Depends},
 Description: Metapackages for common Qualcomm QCS9075 vendor packages
