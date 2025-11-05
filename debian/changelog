@@ -1,3 +1,22 @@
+qualcomm-profiles (0.1.0-5) unstable; urgency=medium
+
+  [ dependabot[bot] ]
+  * build(deps): bump actions/download-artifact from 5 to 6
+
+  [ HE Zhengyu ]
+  * feat: add udev rules for qcs9075
+  * feat: simplify fastrpc udev rules
+  * fix: remove firmware-qcom-hlosfw from task-qualcomm
+  * feat: add radxa-firmware-qcs9075 in task-qcs9075
+
+  [ chongbiao Chen ]
+  * feat: add  task-qcs9075
+
+  [ ZHANG Yuntian ]
+  * fix: restore dh_installudev
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 05 Nov 2025 10:20:02 +0000
+
 qualcomm-profiles (0.1.0-4) unstable; urgency=medium
 
   [ Guoguo ]
