@@ -1,1 +1,6 @@
 debian/task-qualcomm.metainfo.xml usr/share/metainfo
+task-qualcomm/common/systemd/no-prestart.conf /usr/lib/systemd/system/adsprpcd.service.d
+task-qualcomm/common/systemd/no-prestart.conf /usr/lib/systemd/system/cdsprpcd.service.d
+task-qualcomm/common/systemd/no-prestart.conf /usr/lib/systemd/system/cdsp1rpcd.service.d
+task-qualcomm/common/systemd/no-prestart.conf /usr/lib/systemd/system/gdsprpcd.service.d
+task-qualcomm/common/systemd/no-prestart.conf /usr/lib/systemd/system/gdsp1rpcd.service.d
