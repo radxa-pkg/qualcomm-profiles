@@ -26,6 +26,7 @@ Priority: optional
 Depends: qcom-iot-defaults,
          task-qualcomm-gstreamer,
          radxa-system-config-qualcomm,
+         task-qualcomm-npu,
          ${misc:Depends},
 Description: Metapackages for common Qualcomm vendor packages
  This package provides prebuilt packages from Qualcomm that
@@ -51,4 +52,14 @@ Depends: task-qualcomm,
          ${misc:Depends},
 Description: Metapackages for common Qualcomm QCS9075 vendor packages
  This package provides prebuilt packages from Qualcomm QCS9075 that
+ provides a more optimized user experience.
+
+Package: task-qualcomm-npu
+Architecture: all
+Priority: optional
+Depends: fastrpc,
+         libcdsprpc1,
+         ${misc:Depends},
+Description: Metapackages for common Qualcomm FASTRPC vendor packages
+ This package provides prebuilt packages from Qualcomm FASTRPC that
  provides a more optimized user experience.
