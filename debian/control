@@ -63,3 +63,14 @@ Depends: fastrpc,
 Description: Metapackages for common Qualcomm FASTRPC vendor packages
  This package provides prebuilt packages from Qualcomm FASTRPC that
  provides a more optimized user experience.
+
+Package: task-sc8280xp
+Architecture: all
+Priority: optional
+Depends: task-qualcomm,
+         radxa-firmware-sc8280xp,
+         ${misc:Depends},
+Recommends: irqbalance,
+Description: Metapackages for common Qualcomm SC8280XP vendor packages
+ This package provides prebuilt packages from Qualcomm SC8280XP that
+ provides a more optimized user experience.
