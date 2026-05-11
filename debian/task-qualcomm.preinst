@@ -5,6 +5,7 @@ case $1 in
     install|upgrade|triggered)
         conflicts="
         /usr/lib/modprobe.d/blacklist-qcom-camera.conf
+        /etc/kernel/postinst.d/zzz-update-dtb
         "
         for i in $conflicts
         do
