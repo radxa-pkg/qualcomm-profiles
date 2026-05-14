@@ -1,3 +1,17 @@
+qualcomm-profiles (0.1.0-8) unstable; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * feat: add task-sc8280xp
+  * chore: upload package to sc8280xp repo
+  * Update pkg.conf.template
+
+  [ Chongbiao Chen ]
+  * feat: add config.static.yaml for task-qcs9075
+  * choe: delete zz-cp-dsp-firmware hook
+  * feat: divert zzz-update-dtb kernel hook from dragonwing-defaults
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 14 May 2026 08:05:45 +0000
+
 qualcomm-profiles (0.1.0-7) unstable; urgency=medium
 
   [ ZHANG Yuntian ]
