@@ -4,3 +4,4 @@ task-qualcomm/common/systemd/no-prestart.conf /usr/lib/systemd/system/cdsprpcd.s
 task-qualcomm/common/systemd/no-prestart.conf /usr/lib/systemd/system/cdsp1rpcd.service.d
 task-qualcomm/common/systemd/no-prestart.conf /usr/lib/systemd/system/gdsprpcd.service.d
 task-qualcomm/common/systemd/no-prestart.conf /usr/lib/systemd/system/gdsp1rpcd.service.d
+task-qualcomm/usr/lib/systemd/system/serial-getty@.service.d/99-noreset.conf /usr/lib/systemd/system/serial-getty@.service.d/
