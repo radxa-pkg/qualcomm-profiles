@@ -69,6 +69,7 @@ Architecture: all
 Priority: optional
 Depends: task-qualcomm,
          radxa-firmware-sc8280xp,
+         libva-v4l2,
          ${misc:Depends},
 Recommends: irqbalance,
 Description: Metapackages for common Qualcomm SC8280XP vendor packages
