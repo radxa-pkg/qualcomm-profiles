@@ -1,3 +1,10 @@
+qualcomm-profiles (0.1.0-14) unstable; urgency=medium
+
+  [ Stephen Chen ]
+  * feat: task-sc8280xp: add libva-v4l2
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 17 Sep 2026 08:36:26 +0000
+
 qualcomm-profiles (0.1.0-13) unstable; urgency=medium
 
   [ Chongbiao Chen ]
